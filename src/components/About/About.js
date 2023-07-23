@@ -14,8 +14,11 @@ const About = () => {
         </h1>
       )}
 
+      
+        
       {role && <h2 className='about__role'>A {role}.</h2>}
-      <p className='about__desc'>{description && description}</p>
+      <p className='about__desc'>Recently, I completed my masters in applied computer science from 
+      Concordia University. Prior to this, I was working as a Software Development Engineer at Yellow.ai and a Data Engineer at Fokal.ai.<br/> <br/> My areas of interest includes web applications, cloud technologies and distributed systems. I enjoy creating simple and effective solutions to improve application perfomance and building things that empowers others to do the same.</p>
 
       <div className='about__contact center'>
         {resume && (
